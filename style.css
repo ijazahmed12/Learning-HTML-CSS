@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+}
+
+footer{
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
+    height: 200px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 30% 40% 20%;
+    font-size: 20px;
+    border-top: 10px solid yellow;
+}
+
+#container{
+    min-height: 500px;
+    margin: auto;
+    width: 80%;
+}
+
+h1{
+    color: blue;
+    font-size: 70px;
+    text-align: center;
+}
+
+@keyframes mybanner{
+    25% { background-image: url(bodybg/bg2.png);}
+    50% { background-image: url(bodybg/bg5.png);}
+    75% { background-image: url(bodybg/bg7.png);}
+}
+
+#banner{
+    background-image: url(bodybg/bg4.png);
+    background-size: 100% 100%;
+    height: 300px;
+    padding-top: 150px;
+    font-size: 80px;
+    color: red;
+    text-align: center;
+    animation: mybanner;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+ul{
+    background-image: linear-gradient(to left, white,cyan,white);
+    margin: 0px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+ul li{
+    display: inline-block;
+    padding: 18px 35px 18px;
+}
+
+ul li a{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+ul li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+header{
+    background-color: chocolate;
+    color: white;
+    padding: 2px 10% 2px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    position: sticky;
+    top: 0px;
+
+}
+
+.fouritem{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.mypic{
+    height: 250px;
+    width: 20%;
+    margin: 2%;
+    box-shadow: 0px 0px 20px grey;
+}
+
+#contact{
+    text-align: center;
+    font-size: 45px;
+    color: red;
+}
+
+.fouritem p{
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    box-shadow: 0px 0px 5px grey;
+}
+#login{
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0px 10px 20px cyan;
+    border-radius: 10px;
+}
+
+#login tr{
+    height: 50px;
+}
+
+.smallinput{
+    height: 30px;
+    width: 100%;
+}
+
+button{
+    padding: 7px 20px 7px;
+    background-color: brown;
+    color: white;
+    font-size: 22px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+.bigbox{
+    height: 70px;
+}
+.myproduct{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.product{
+    margin: 40px;
+    text-align: center;
+}
+.product img{
+    height: 150px;
+    width: 100%;
+}
+.product h3{
+    font-size: 25px;
+    color: orangered;
+}
